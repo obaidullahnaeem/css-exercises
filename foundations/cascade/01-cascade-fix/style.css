@@ -6,15 +6,10 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 28px;
 }
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
+.para:first-of-type {
+  font-size: 34px  ;
 }
 
 .confirm {
@@ -28,6 +23,10 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+#confirm-button { 
+  background-color: green;
+  color: white;
+ }
 
 .child {
   color: rgb(0, 0, 0);
@@ -35,8 +34,13 @@ body {
   font-size: 14px;
 }
 
+
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+.text.child {
+  font-weight: 800;
 }
